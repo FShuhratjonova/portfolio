@@ -11,12 +11,20 @@
     <link rel="stylesheet" href="style/media.css">
 </head>
 <body>
-    <header>
-        <nav class="container navbar navbar-expand-lg">
+    <header class="header">
+        <nav class="container navbar navbar-expand-lg justify-content-between">
             <a href="#!" class="logo"></a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-basketball"></i>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fad fa-acorn"></i>
               </button>
+              <div class="collapse navbar-collapse justify-content-end" id="#nav">
+                  <ul class="navbar-nav align-items-end align-items-lg-center">
+                      <li><a class="header__link" href="">About Me</a></li>
+                      <li><a class="header__link" href="">Works</a></li>
+                      <li><a class="header__button" href="">to order</a></li>
+                      <li><a class="header__tel" href=""><i class="fal fa-phone-square-alt"></i></a></li>
+                  </ul>
+              </div>
         </nav>
     </header>
     <script src="libs/bootstrap.bundle.min.js"></script>
