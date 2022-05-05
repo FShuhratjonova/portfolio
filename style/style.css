@@ -116,6 +116,7 @@ body{
     transform: 0.5s background 0.5s color;
     text-transform: capitalize;
     border-radius: 8px;
+    margin: auto;
     box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
 }
 
@@ -126,7 +127,7 @@ body{
 
 .intro_logo{
     max-width: 100%;
-    margin-right: 15px;
+    margin-top: 45px;
 }
 
 .intro_logo_svg{
