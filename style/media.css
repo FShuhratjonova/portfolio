@@ -8,3 +8,10 @@
         content: url(../images/logo-dark.png);
     }
 }
+
+@media(max-width:992px){
+    .header__button,
+    .header__link{
+        margin: 10px 0 ;
+    }
+}

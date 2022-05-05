@@ -75,4 +75,51 @@ body{
     text-shadow: 0 0 15px;
 }
 
+.header__toggler{
+    font-size: 35px;
+    color: white;
+}
 
+.header__toggler:focus{
+    box-shadow: none;
+}
+
+.intro__subtitle{
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.intro__title{
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: var(--primary-link-color);
+    line-height: 1.25;
+    margin-bottom: 25px;
+}
+
+.intro__button{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border: 1px solid var(--primary-link-color);
+    background: var(--primary-link-color);
+    color: var(--secondary-link-color);
+    text-decoration: none;
+    width: 300px;
+    height: 45px;
+    transform: 0.5s background 0.5s color;
+    text-transform: capitalize;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+}
+
+.intro__button:hover{
+    background: var(--primary-background);
+    color: var(--primary-link-color);
+}
