@@ -123,3 +123,21 @@ body{
     background: var(--primary-background);
     color: var(--primary-link-color);
 }
+
+.intro_logo{
+    max-width: 100%;
+    margin-right: 15px;
+}
+
+.intro_logo_svg{
+    height: 90px;
+    color: #790FF1;
+}
+
+.intro_name{
+    color: var(--primary-link-color);
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
