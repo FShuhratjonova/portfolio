@@ -117,6 +117,7 @@ body{
     text-transform: capitalize;
     border-radius: 8px;
     margin: auto;
+    margin-bottom: 50px;
     box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
 }
 
@@ -127,7 +128,6 @@ body{
 
 .intro_logo{
     max-width: 100%;
-    margin-top: 45px;
 }
 
 .intro_logo_svg{
@@ -141,4 +141,77 @@ body{
     font-size: 20px;
     line-height: 24px;
     text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.intro_image{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.intro_indicators{
+    display: flex;
+    justify-content: center;
+    position: static;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.intro_indicators .carousel_dot{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: none;
+    outline: none;
+    background: #EBEBEB;
+    margin: 0 15px;
+    opacity: 1;
+    transition: 0.5s background;
+}
+
+.carousel_dot.active{
+    background: #7177F1;
+}
+
+.rect{
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    z-index: -5;
+}
+
+.rect_1{
+    top: 30px;
+    left: 250px;
+    border-radius: 50%;
+    border-color: #790FF1;
+    width: 60px;
+    height: 60px;
+}
+
+.rect_2{
+    width: 80px;
+    height: 80px;
+    border-color: #9297EF;
+    transform: matrix(0.71, 0.71, -0.7, 0.71, 0, 0);
+    left: 20px;
+    top: 95px;
+}
+
+.rect_3{
+    width: 100px;
+    height: 100px;
+    right: 160px;
+    border-color: #9297EF;
+    top: 80px;
+}
+
+.rect_4{
+    width: 60px;
+    height: 60px;
+    border-color: #7177F1;
+    right: 300px;
+    top: 360px;
+    transform: matrix(0.76, -0.66, 0.64, 0.76, 0, 0);
 }
