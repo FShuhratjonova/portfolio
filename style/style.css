@@ -215,3 +215,90 @@ body{
     top: 360px;
     transform: matrix(0.76, -0.66, 0.64, 0.76, 0, 0);
 }
+
+.about{
+    margin-top: 75px;
+    position: relative;
+}
+
+.about_left{
+    position: relative;
+}
+
+.about_image{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.about_slogan{
+    background: var(--primary-link-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(113, 119, 241, 0.5);
+    border-radius: 8px;
+    position: absolute;
+    width: 190px;
+    height: 65px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+
+.about_mark{
+    position: absolute;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: #0FDAC2;
+    top: -12px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about_right{
+    padding: 30px;
+    background: var(--primary-background);
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 3px  rgba(113, 119, 241, 0.15);
+}
+
+.about_title{
+    margin-bottom: 20px;
+    color: var(--secondary-title-color);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.75;
+    text-transform: capitalize;
+}
+
+.about_text{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-background);
+}
+
+.about_button{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-link-color);
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+    border-radius: 8px;
+    height: 44px;
+    width: 190px;
+    color: var(--secondary-link-color);
+    text-transform: uppercase;
+}
+
+
