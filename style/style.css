@@ -216,6 +216,15 @@ body{
     transform: matrix(0.76, -0.66, 0.64, 0.76, 0, 0);
 }
 
+.rect_6{
+    width: 60px;
+    height: 60px;
+    border-color: #9297EF;
+    left: 350px;
+    top: 100px;
+    border-radius: 50%;
+}
+
 .about{
     margin-top: 75px;
     position: relative;
