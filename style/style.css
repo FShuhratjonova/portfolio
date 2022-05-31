@@ -402,13 +402,13 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* .works__tab:first-of-type {
+.works__tab:first-of-type {
   border-radius: 8px 8px 0 0;
 }
 
 .works__tab:last-of-type {
   border-radius: 0 0 8px 8px;
-} */
+}
 
 .works__item {
   background: var(--primary-background);
@@ -457,4 +457,133 @@ body {
   color: var(--secondary-link-color);
   text-decoration: none;
   transition: 0.5s color, 0.5s background;
+}
+
+.works__button:hover{
+  background: var(--secondary-title-color-alt);
+  color: var(--secondary-link-color);
+}
+
+.footer{
+  margin-top: 220px;
+  padding-bottom: 130px;
+  position: relative;
+}
+
+.footer__link{
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.footer__link:hover{
+  color: var(--secondary-title-color);
+}
+
+.display{
+  display: flex;
+}
+
+.rect{
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;
+  z-index: -5;
+}
+
+.rect_1{
+  top: 30px;
+  left: 250px;
+  border-radius: 50%;
+  border-color: #790FF1;
+  width: 60px;
+  height: 60px;
+}
+
+.rect_2{
+  width: 80px;
+  height: 80px;
+  border-color: #9297EF;
+  transform: matrix(0.71, 0.71, -0.7, 0.71, 0, 0);
+  left: 20px;
+  top: 95px;
+}
+
+.rect_3{
+  width: 100px;
+  height: 100px;
+  border-color: #9297EF;
+  right: 160px;
+  top: 80px;
+}
+
+.rect_4{
+  width: 80px;
+  height: 80px;
+  border-color: #7177F1;
+  right: 300px;
+  top: 360px;
+  transform: matrix(0.76, -0.66, 0.64, 0.76, 0, 0);
+}
+
+.rect_5{
+  width: 60px;
+  height: 60px;
+  border-color: #9297EF;
+  right: 120px;
+  bottom: -20px;
+  border-radius: 50%;
+}
+
+.rect_6{
+  width: 60px;
+  height: 60px;
+  color: #9297EF;
+  left: 350px;
+  top: 100px;
+  border-radius: 50%;
+}
+
+.rect_7{
+  width: 75px;
+  height: 75px;
+  border-color: #790FF1;
+  left: 125px;
+  bottom: 100px;
+  border-radius: 50%;
+}
+
+.rect_8{
+  width: 60px;
+  height: 60px;
+  border-color: #790FF1;
+  right: 800px;
+  bottom: -100px;
+  border-radius: 50%;
+}
+
+.rect_9{
+  width: 100px;
+  height: 100px;
+  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
+  border-color: #7177F1;
+  right: 80px;
+  bottom: 0;
+}
+
+.shape{
+  position: absolute;
+  z-index: -4;
+  max-width: 60%;
+}
+
+.shape_1{
+  right: 0;
+  top: -500px;
+}
+
+.shape_2{
+  left: 0;
+  top: -230px;
 }
